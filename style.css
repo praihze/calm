@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+main {
+    background: url(Calm\ jasper-lake.jpg);
+}
+.first{
+    width: 80%;
+    margin: auto;
+}
+
+.header img {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: fixed;
+    
+}
+
+
+.header p {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.head{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+.head p{
+    margin-top: 10px;
+    color: white;
+    font: bold;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+}
+.botton a{
+    color: white;
+    font: bold;
+    padding: 0;
+    margin: o;
+}
+
+.paragraph-1{
+    padding-top: 9em;
+    color: white;
+    width: 50%;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.paragraph-1 p{
+    font-size: 1.4em;
+    font: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paragraph-2 p{
+    color: white;
+    font-size: 1.4em;
+    font: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.help{
+    padding-top: 10px;
+    width: 50%;
+    padding-bottom: 7em;
+}
+
+.help div{
+    border: 0.5px solid gray;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.second{
+    background-color: rgb(27, 34, 80);
+    color: white;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 3em;
+}
+h3{
+    padding-bottom: 20px;
+}
+
+.second p{
+    color: rgb(212, 210, 210);
+    padding-bottom: 5px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(212, 210, 210);
+    padding-bottom: 2em;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.head{
+    display: none;
+}
+
+}
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}/* Style label tag */
+
+.hamb-line {
+    background: var(--white);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+    background: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    
+    
+.first{
+        width: 80%;
+        margin: auto;
+ }
+ .paragraph-1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+ }
+ .paragraph-2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+ }
+ .help{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+ }
+    
+.header img {
+        width: 20%;
+        height: 20%;
+        margin-top: 10px;
+ }
+.header p {
+    color: white;
+    font-weight: 600;
+    font-size: 0.7em;
+
+}
+.head{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+.header{
+    gap: 70px;
+}
+.button {
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 2px 2px;
+    margin-top: 5px;
+}
+.botton a{
+    color: white;
+    font: bold;
+    padding: 0; 
+    margin: 0;
+    
+}
+
+.help div {
+    font-size: 1em;
+}
+
+.second{
+    width: 100;
+    margin: auto;
+    text-align: justify;
+}
+nav{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav div{
+    padding-top: 10px;
+}
+
+aside{
+    padding: 20px;
+}
+}
+
+@media screen and (max-width: 420px) {
+    
+ .paragraph-1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+ }
+ 
+ 
+ .help{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+ }
+    
+
+}
+
